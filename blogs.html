@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="blogs.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html"><h1>Tiktok</h1></a>
+        <ul>
+            <a href="index.html"><li>Home</li></a>
+            <a href="blogs.html"><li>blogs</li></a>
+            <a href="galari.html"><li>Gallery</li></a>
+        </ul>
+    </nav>
+    <br><br><br>
+    <h1>People's opinion about Tiktok</h1>
+
+    <div class="Posts">
+        <div id="postContainer">
+            <div class="postPFP">
+                <img style="border-radius: 50%;" width="60px" src="pfp.jpg" alt="">
+                <h3>Sara Dilshad</h3>
+                
+            </div>
+            <div id="postFirstText">
+                <p>Can't get enough of TikTok!</p>
+                <span id="dots">...</span>
+            </div>
+            <div id="postSeemoretext">
+                <p> It's addictive and entertaining, but I need to set limits to avoid wasting time. What are your thoughts on the platform?</p>
+            </div>
+            <div>
+                <button onclick="seemore()" id="seeMore">Read more</button>
+            </div>
+            <div id="social">
+                <i class="fa fa-thumbs-up"></i>
+                <i class="fa fa-comment"></i>
+                <i class="fa fa-share"></i>
+            </div>
+        </div>
+
+        <div id="postContainer">
+            <div class="postPFP">
+                <img style="border-radius: 50%;" width="60px" src="pfp2.jpg" alt="">
+                <h3>Fenik Hussen</h3>
+                
+            </div>
+            <div id="postFirstText">
+                <p>TikTok: A creative hub and community builder!</p>
+                <span id="dots2">...</span>
+            </div>
+            <div id="postSeemoretext2">
+                <p>It amplifies diverse voices and brings people together. Share your favorite TikTok moments!</p>
+            </div>
+            <div>
+                <button onclick="seemore2()" id="seeMore2">Read more</button>
+            </div>
+            <div id="social">
+                <i class="fa fa-thumbs-up"></i>
+                <i class="fa fa-comment"></i>
+                <i class="fa fa-share"></i>
+            </div>
+        </div>
+
+        
+        
+    </div>
+
+
+
+
+    <script>
+        function seemore(){
+            var dots =  document.getElementById("dots");
+            var moreText = document.getElementById("postSeemoretext");
+            var btn = document.getElementById("seeMore");
+
+            if(dots.style.display=="none"){
+                dots.style.display ="inline";
+                btn.innerHTML="Read more";
+                moreText.style.display="none"
+            }
+            else{
+                dots.style.display ="none";
+                btn.innerHTML="Read less";
+                moreText.style.display="block"
+            }
+        }
+        function seemore2(){
+            var dots =  document.getElementById("dots2");
+            var moreText = document.getElementById("postSeemoretext2");
+            var btn = document.getElementById("seeMore2");
+
+            if(dots.style.display=="none"){
+                dots.style.display ="inline";
+                btn.innerHTML="Read more";
+                moreText.style.display="none"
+            }
+            else{
+                dots.style.display ="none";
+                btn.innerHTML="Read less";
+                moreText.style.display="block"
+            }
+        }
+    </script>
+
+
+
+</body>
+</html>

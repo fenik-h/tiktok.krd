@@ -1,0 +1,110 @@
+body{
+
+    background-color: bisque;
+}
+nav{
+
+    display: flex;
+    justify-content: space-around;
+}
+nav ul{
+display: flex;
+list-style: none;
+}
+nav ul li{
+margin-left: 19px;
+font-size: 30px;
+
+}
+nav ul li:hover
+{
+border-bottom: 2px solid  black;
+
+}
+
+
+
+
+
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+h1{
+    font-size: 30px;
+    text-align: center;
+    }
+
+
+
+
+
+/* posts */
+.Posts{
+    width: 85%;
+    margin: auto;
+    margin-top: 50px;
+   
+}
+#postContainer{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    
+}
+.postPFP{
+    display: flex;
+    padding: 15px;
+    
+}
+.postPFP h3{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+#postFirstText{
+    display: flex;
+    padding-left: 15px;
+}
+#postFirstText span{
+    display: inline;
+    margin-top: 8px;
+    font-size: 25px;
+    font-weight: bold
+    
+}
+#postSeemoretext{
+    padding-left: 15px;
+    display: none;
+}
+#seeMore{
+    margin-left: 15px;
+}
+#social{
+    padding: 5px;
+    margin-left: 15px;
+}
+#social i{
+    font-size: 25px;
+}
+
+
+#postSeemoretext2{
+    padding-left: 15px;
+    display: none;
+}
+#seeMore2{
+    margin-left: 15px;
+}
+#social2{
+    padding: 5px;
+    margin-left: 15px;
+}
+#social2 i{
+    font-size: 25px;
+}

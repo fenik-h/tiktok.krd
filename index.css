@@ -1,0 +1,58 @@
+body{
+
+    background-color: bisque;
+}
+nav{
+
+    display: flex;
+    justify-content: space-around;
+}
+nav ul{
+display: flex;
+list-style: none;
+}
+nav ul li{
+margin-left: 19px;
+font-size: 30px;
+
+}
+nav ul li:hover
+{
+border-bottom: 2px solid  black;
+
+}
+h1{
+font-size: 30px;
+
+}
+.w{
+    display: flex;
+    justify-content: space-around;
+
+}
+img{
+    width: 15%;
+    height: 200px;
+}
+
+.e{
+    width: 50%;
+}
+button{
+    color: white;
+    background-color: palevioletred;
+    border: none;
+    border-radius: 40px;
+    width: 20%;
+    height: 50px;
+
+}
+button:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
